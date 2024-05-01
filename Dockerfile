@@ -1,4 +1,4 @@
-FROM ruby:3.0-bullseye as base
+FROM ruby:3.0.3 as base
 
 RUN apt-get update -qq && apt-get install -y build-essential apt-utils libpq-dev nodejs
 
@@ -11,9 +11,5 @@ COPY Gemfile* ./
 RUN bundle install
 
 ADD . /app
-
-ARG DEFAULT_PORT 3000
-
-EXPOSE ${DEFAULT_PORT}
 
 CMD [ "bundle","exec", "puma", "config.ru"]
