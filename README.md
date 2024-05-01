@@ -1,9 +1,24 @@
 # README
 
-This is a `really_cool_app` to demonstrate CI configuration for Ruby on Rails app using **Github Actions**.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-{[Desi Developer](https://sajjadumar.com)}
+Things you may want to cover:
 
-> **Desi Developer Merch** - Premium Products for hardcore developers and wannabes.
+* Ruby version
 
-Shop now at: [desidev.shop](https://desidev.shop/)
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
