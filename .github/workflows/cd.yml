@@ -93,4 +93,4 @@ jobs:
 
       - name: Deployed
         run: |
-          echo "Imaged ${{ needs.build.outputs.image }} deployed"
+          echo "Image ${{ needs.build.outputs.image }} deployed"
